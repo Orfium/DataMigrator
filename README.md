@@ -5,6 +5,10 @@
  An example usage would be:
 
  `python3 run.py -a "SELECT video_id,asset_id FROM reports.table" -s "DB_ORFIUM.SCHEMA.table"`
+ 
+ Where:
+ - a: a query performed to Athena
+ - s: a table in Snowflake
      
  Specifications:
       
